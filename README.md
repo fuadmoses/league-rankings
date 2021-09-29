@@ -25,3 +25,20 @@ Lions 4, Grouches 0
 3. Snakes, 1 pt
 5. Grouches, 0 pts
 ```
+
+### Installation:
+```
+pip install -e.
+
+```
+
+### Usage:
+
+```
+league_rankings league_rankings/sample.txt
+```
+
+### Running unit tests:
+```
+python -m unittest discover tests
+```

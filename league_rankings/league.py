@@ -1,4 +1,7 @@
-from league_rankings.match_parser import MatchParser
+if __name__ == '__main__':
+    from match_parser import MatchParser
+else:
+    from league_rankings.match_parser import MatchParser
 
 
 class League:
