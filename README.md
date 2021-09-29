@@ -28,12 +28,17 @@ Lions 4, Grouches 0
 
 ### Installation:
 ```
-pip install -e.
+pip install -e .
 
 ```
 
 ### Usage:
+Specify the file to process
+```
+league_rankings <file>
+```
 
+Example:
 ```
 league_rankings league_rankings/sample.txt
 ```
